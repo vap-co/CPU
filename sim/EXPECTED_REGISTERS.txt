@@ -1,0 +1,37 @@
+Expected architectural state after sim/program.mem reaches EBREAK:
+
+x1  = 0000000a
+x2  = 00000003
+x3  = 0000000d
+x4  = 00000007
+x5  = 00000005
+x6  = 000000e8
+x7  = 000000e4
+x8  = 00000008
+x9  = 00000001
+x10 = 0000000b
+x11 = 00000002
+x12 = ffffffff
+x13 = ffffffff
+x14 = 0000001e   MUL
+x15 = ffffffff   MULH
+x16 = ffffffff   MULHSU
+x17 = 00000002   MULHU
+x18 = 00000003   DIV
+x19 = 00000003   DIVU
+x20 = 00000001   REM
+x21 = 00000001   REMU
+x22 = 00000100
+x23 = 0000000d   LW
+x24 = 0000000a   LB
+x25 = 0000000a   LBU
+x26 = fffffffe
+x27 = fffffffe   LH
+x28 = 0000fffe   LHU
+x29 = 00000004   BLT/BGE/BLTU/BGEU checks
+x30 = 00000002   BEQ/BNE checks
+x31 = 000000d0   JAL return address
+
+Data memory after the store/load tests includes:
+  address 0x100 -> 0x0000000d
+  address 0x104 word -> 0xfffe000a

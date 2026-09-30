@@ -1,0 +1,7 @@
+FFT PASS
+Expected Result (sum): 1640952 -> Return (sum & 0xff): 248
+Observed Result (a0): 248
+Simulation Completion Time: 2403975000 ps (approx 80,132 clock cycles)
+Configuration: ADDER_TYPE=0, MULT_TYPE=0 (RCA_ARRAY - default testbench config)
+Memory Mode: 1 (BRAM)
+Warnings: None

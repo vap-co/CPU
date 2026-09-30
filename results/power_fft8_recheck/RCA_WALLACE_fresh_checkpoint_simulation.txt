@@ -1,0 +1,27 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Sep 30 12:10:45 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/power_snap/xsim_script.tcl
+# xsim {power_snap} -autoloadwcfg -tclbatch {capture.tcl}
+Time resolution is 1 ps
+source capture.tcl
+## run 35ns
+## open_saif D:/CPU_FINAL_RV32IM_DualMemory/RV32IM_3x3_AdderMultiplier_DualMemory/build/power/RCA_WALLACE/activity.saif
+## log_saif [get_objects -r /*/dut/*]
+## run all
+HALTED asserted at time 2403975000
+Simulation Finished Successfully.
+Benchmark Checksum (a0/x10):        248
+BENCHMARK PASS
+$stop called at time : 2404125 ns : File "D:/CPU_FINAL_RV32IM_DualMemory/RV32IM_3x3_AdderMultiplier_DualMemory/sim/cpu_power_tb.v" Line 59
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 203.418 ; gain = 0.027
+## close_saif
+## exit
+INFO: xsimkernel Simulation Memory Usage: 37016 KB (Peak: 37016 KB), Simulation CPU Usage: 11562 ms
+INFO: [Common 17-206] Exiting xsim at Wed Sep 30 12:10:58 2026...

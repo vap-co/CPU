@@ -1,0 +1,28 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Thu Aug 13 18:29:28 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/snap_KSA_VEDIC/xsim_script.tcl
+# xsim {snap_KSA_VEDIC} -autoloadwcfg -tclbatch {scripts/xsim_saif_KSA_VEDIC.tcl}
+Time resolution is 1 ps
+source scripts/xsim_saif_KSA_VEDIC.tcl
+## run 35ns
+## open_saif D:/CPU_FINAL_RV32IM_DualMemory/CPU_FINAL/results_new/power/KSA_VEDIC/benchmark.saif
+## log_saif [get_objects -r /*/dut/*]
+## run all
+HALTED asserted at time 2403975000
+Simulation Finished Successfully.
+Benchmark Checksum (a0/x10):        248
+$stop called at time : 2404125 ns : File "D:/CPU_FINAL_RV32IM_DualMemory/CPU_FINAL/sim/cpu_power_tb.v" Line 55
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 206.148 ; gain = 0.035
+## puts "HALTED DETECTED (via stop), CLOSING SAIF"
+HALTED DETECTED (via stop), CLOSING SAIF
+## close_saif
+## exit
+INFO: xsimkernel Simulation Memory Usage: 37548 KB (Peak: 37548 KB), Simulation CPU Usage: 21734 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 13 18:29:52 2026...

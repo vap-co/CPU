@@ -1,0 +1,7 @@
+MATRIX PASS
+Expected Result (sum): 1976 -> Return (sum & 0xff): 184
+Observed Result (a0): 184
+Simulation Completion Time: 2262885000 ps (approx 75,429 clock cycles)
+Configuration: ADDER_TYPE=0, MULT_TYPE=0 (RCA_ARRAY - default testbench config)
+Memory Mode: 1 (BRAM)
+Warnings: None

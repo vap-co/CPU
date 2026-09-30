@@ -1,0 +1,43 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Wed Sep 30 11:56:46 2026
+| Host         : LAPTOP_Truong running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file ./build/reproduced_9config_mem1/CSLA_ARRAY_utilization.rpt
+| Design       : cpu_top
+| Device       : xc7z030ffg676-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------------+------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|             Instance             |         Module         | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------------------------+------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| cpu_top                          |                  (top) |       3628 |       3584 |      44 |    0 | 256 |      4 |      0 |          0 |
+|   (cpu_top)                      |                  (top) |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          0 |
+|   GEN_BRAM.u_core                |          cpu_core_bram |       3628 |       3584 |      44 |    0 | 256 |      4 |      0 |          0 |
+|     (GEN_BRAM.u_core)            |          cpu_core_bram |         10 |         10 |       0 |    0 | 117 |      0 |      0 |          0 |
+|     alu                          |                alu_32b |       2311 |       2311 |       0 |    0 |   0 |      0 |      0 |          0 |
+|       u_mul                      |           mul_unit_32b |       2227 |       2227 |       0 |    0 |   0 |      0 |      0 |          0 |
+|         u_mul                    |     cpu_multiplier_32b |       2227 |       2227 |       0 |    0 |   0 |      0 |      0 |          0 |
+|           GEN_ARRAY.u_mul        |   array_multiplier_32b |       2227 |       2227 |       0 |    0 |   0 |      0 |      0 |          0 |
+|             u_csa_row0           |      array_csa_row_64b |       2227 |       2227 |       0 |    0 |   0 |      0 |      0 |          0 |
+|               GEN_CSA_FA[1].u_fa |          full_adder_15 |       2227 |       2227 |       0 |    0 |   0 |      0 |      0 |          0 |
+|       u_adder                    |          cpu_adder_32b |         73 |         73 |       0 |    0 |   0 |      0 |      0 |          0 |
+|         GEN_CSLA.u_adder         | carry_select_adder_32b |         71 |         71 |       0 |    0 |   0 |      0 |      0 |          0 |
+|     divider                      |       divider_unit_32b |        228 |        228 |       0 |    0 | 139 |      0 |      0 |          0 |
+|     dmem                         |              dmem_bram |         71 |         71 |       0 |    0 |   0 |      2 |      0 |          0 |
+|     reg_file                     |         reg_file_32x32 |        876 |        832 |      44 |    0 |   0 |      0 |      0 |          0 |
++----------------------------------+------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

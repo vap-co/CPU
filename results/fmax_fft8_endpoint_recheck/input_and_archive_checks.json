@@ -1,0 +1,60 @@
+{
+  "cpu_reports_and_power": [
+    {
+      "configuration": "RCA_ARRAY",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 1.0
+    },
+    {
+      "configuration": "RCA_WALLACE",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 0.589
+    },
+    {
+      "configuration": "RCA_VEDIC",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 0.461
+    },
+    {
+      "configuration": "CSLA_ARRAY",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 1.089
+    },
+    {
+      "configuration": "CSLA_WALLACE",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 0.578
+    },
+    {
+      "configuration": "CSLA_VEDIC",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 0.466
+    },
+    {
+      "configuration": "KSA_ARRAY",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 1.032
+    },
+    {
+      "configuration": "KSA_WALLACE",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 0.597
+    },
+    {
+      "configuration": "KSA_VEDIC",
+      "archived_and_recheck_match_paper": true,
+      "ppa": 0.476
+    }
+  ],
+  "standalone_reports_match_paper": true,
+  "fmax_csv_arithmetic_valid": true,
+  "sha256": {
+    "program.mem": "48b614aa0ee4d8daf0ecc2b5888c6d31af7089d5415e050cb835c582c262d7f5",
+    "data.mem": "48b0ef7aff408401c8bf983cd4e1643d698bf168bd1745e9581dc2e819801e7e",
+    "sim\\program.mem": "48b614aa0ee4d8daf0ecc2b5888c6d31af7089d5415e050cb835c582c262d7f5",
+    "sim\\data.mem": "0a211a3d2ab8a4392311a3cf73395f4f776b2940fbaf886b4ee9d4a7d571f637",
+    "benchmarks\\prebuilt\\fft\\program.mem": "ed92ed808b0b6378863406d3781b8eefd6aa971638aad09fe798cbb4326600f1",
+    "benchmarks\\prebuilt\\fft\\data.mem": "48b0ef7aff408401c8bf983cd4e1643d698bf168bd1745e9581dc2e819801e7e"
+  },
+  "scope": "Archived evidence check, not a fresh nine-configuration physical implementation."
+}

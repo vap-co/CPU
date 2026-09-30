@@ -1,0 +1,3 @@
+Configuration,Workload,Period_ns,WNS_ns
+CSLA_WALLACE,FFT8,14.3,0.087
+CSLA_WALLACE,FFT8,14.2,-0.363
